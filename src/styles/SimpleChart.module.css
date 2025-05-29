@@ -1,0 +1,41 @@
+.chartContainer {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.chart {
+  width: 100%;
+  height: auto;
+}
+
+.bar {
+  transition: opacity 0.2s ease;
+}
+
+.bar:hover {
+  opacity: 0.8;
+}
+
+.line {
+  filter: drop-shadow(0 2px 4px rgba(79, 70, 229, 0.2));
+}
+
+.point {
+  transition: r 0.2s ease;
+}
+
+.point:hover {
+  r: 6;
+}
+
+.label {
+  font-size: 12px;
+  fill: #6b7280;
+  font-weight: 500;
+}
+
+.value {
+  font-size: 11px;
+  fill: #374151;
+  font-weight: 600;
+}
