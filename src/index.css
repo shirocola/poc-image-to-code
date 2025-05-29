@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
+  background-color: #181B3A;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: 'Inter', 'Arial', monospace;
+}
